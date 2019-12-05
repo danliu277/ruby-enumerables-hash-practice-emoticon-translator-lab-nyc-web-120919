@@ -8,7 +8,7 @@ def load_library(library)
     "get_meaning": {},
     "get_emoticion": {}
   }
-  data.
+  data.each do 
   return result
 end
 
