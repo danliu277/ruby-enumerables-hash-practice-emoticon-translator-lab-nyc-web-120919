@@ -4,7 +4,7 @@ require "yaml"
 def load_library(library)
   # code goes here
   return {
-      :get_meaning => YAML.load_file(library)
+      "get_meaning": YAML.load_file(library)
     }
 end
 
