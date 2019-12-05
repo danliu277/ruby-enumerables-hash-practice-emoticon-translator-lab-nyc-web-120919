@@ -8,7 +8,6 @@ def load_library(library)
     "get_emoticon" => {} 
   }
   data.each do |meaning, array|
-    english, japanese = array
     pp "meaning", meaning, "array", array
     pp "english", english
     pp "japanese", japanese
