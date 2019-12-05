@@ -11,8 +11,8 @@ def load_library(library)
   data.each do |meaning, array|
     # puts meaning, array
     english, japanese = array
-    result["get_meaning"][english] = japanese
-    result["get_emoticion"][japanese] = meaning
+    result["get_emoticion"][english] = japanese
+    result["get_meaning"][japanese] = meaning
   end
   return result
 end
