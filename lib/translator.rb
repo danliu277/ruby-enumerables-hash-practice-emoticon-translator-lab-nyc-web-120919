@@ -1,7 +1,8 @@
 # require modules here
 
-def load_library
+def load_library(library)
   # code goes here
+  return yaml
 end
 
 def get_japanese_emoticon
