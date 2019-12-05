@@ -18,7 +18,7 @@ end
 def get_japanese_emoticon(library, meaning)
   # code goes here
   data = load_library(library)
-  result = data[""]
+  result = data["get_emoticon"][meaning]
 end
 
 def get_english_meaning
