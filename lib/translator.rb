@@ -12,10 +12,10 @@ def load_library(library)
     # pp "meaning", meaning, "array", array
     # pp "english", english
     # pp "japanese", japanese
-    result["get_emoticon"][english] = meaning
+    result["get_emoticon"][english] = japanese
     result["get_meaning"][japanese] = meaning
   end
-  # pp result
+  pp result
   return result
 end
 
