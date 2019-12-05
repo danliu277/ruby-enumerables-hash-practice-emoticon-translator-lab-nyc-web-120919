@@ -9,7 +9,8 @@ def load_library(library)
     "get_emoticion": {}
   }
   data.each do |meaning, array|
-    puts meaning, array
+    # puts meaning, array
+    result[]
   end
   return result
 end
