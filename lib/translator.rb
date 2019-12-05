@@ -9,9 +9,6 @@ def load_library(library)
   }
   data.each do |meaning, array|
     english, japanese = array
-    # pp "meaning", meaning, "array", array
-    # pp "english", english
-    # pp "japanese", japanese
     result["get_emoticon"][english] = japanese
     result["get_meaning"][japanese] = meaning
   end
