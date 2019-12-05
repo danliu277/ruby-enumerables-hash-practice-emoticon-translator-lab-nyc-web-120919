@@ -8,7 +8,9 @@ def load_library(library)
     "get_meaning": {},
     "get_emoticion": {}
   }
-  data.each do |meaning, 
+  data.each do |meaning, array|
+    puts meaning, array
+  end
   return result
 end
 
