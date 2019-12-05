@@ -12,7 +12,6 @@ def load_library(library)
     result["get_emoticon"][english] = japanese
     result["get_meaning"][japanese] = meaning
   end
-  pp result
   return result
 end
 
