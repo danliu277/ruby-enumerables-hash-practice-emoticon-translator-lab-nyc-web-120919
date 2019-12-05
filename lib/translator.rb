@@ -4,6 +4,9 @@ require "yaml"
 def load_library(library)
   # code goes here
   pp YAML.load_file(library)
+  result = {
+    "get_meaning": 
+  }
   return YAML.load_file(library)
 end
 
