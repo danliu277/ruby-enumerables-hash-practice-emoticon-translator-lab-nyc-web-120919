@@ -2,7 +2,7 @@
 
 def load_library(library)
   # code goes here
-  return YAML.load_library
+  return YAML.load_library(library)
 end
 
 def get_japanese_emoticon
