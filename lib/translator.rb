@@ -29,7 +29,7 @@ end
 def get_english_meaning(library, emoticon)
   # code goes here
   data = load_library(library)
-  result = library["get_meaning"][emoticon]
+  result = data["get_meaning"][emoticon]
   if result
     result
   else
