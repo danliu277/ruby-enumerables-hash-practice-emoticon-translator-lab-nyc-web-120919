@@ -8,7 +8,7 @@ def load_library(library)
     "get_meaning": {},
     "get_emoticion": {}
   }
-  return YAML.load_file(library)
+  return result
 end
 
 def get_japanese_emoticon
