@@ -3,11 +3,12 @@ require "yaml"
 
 def load_library(library)
   # code goes here
-  pp YAML.load_file(library)
+  dat = YAML.load_file(library)
   result = {
     "get_meaning": {},
     "get_emoticion": {}
   }
+  data.
   return result
 end
 
