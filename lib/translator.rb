@@ -5,8 +5,8 @@ def load_library(library)
   # code goes here
   data = YAML.load_file(library)
   result = {
-    "get_meaning": {},
-    "get_emoticion": {}
+    "get_meaning" => {},
+    "get_emoticion" => {}
   }
   data.each do |meaning, array|
     # puts meaning, array
